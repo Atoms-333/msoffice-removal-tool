@@ -1,12 +1,11 @@
-<Configuration ID="A9B3AC9B-7436-4348-AFD5-8769F4D06A4A" >
-  <Add>
-    <Product ID="O365ProPlusRetail">
-      <Language ID="MatchOS"/>
-      <Language ID="MatchPreviousMSI"/>
-      <ExcludeApp ID="Groove"/>
-      <ExcludeApp ID="Lync" />
-	  <ExcludeApp ID="Publisher" />
-	  <ExcludeApp ID="Access" />
-    </Product>
-  </Add>
+<Configuration ID="3c193dbd-8247-4ae9-be40-187af8752b01">
+<Add OfficeClientEdition="64" Channel="Current">
+<Product ID="O365ProPlusRetail">
+<Language ID="en-us"/>
+<ExcludeApp ID="Groove"/>
+<ExcludeApp ID="Lync"/>
+</Product>
+</Add>
+<RemoveMSI/>
+<Display Level="Full" AcceptEULA="TRUE"/>
 </Configuration>
